@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/name_cd"
+            android:text="Name : "
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:id="@+id/firstName_cd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="indu "
+            android:layout_toEndOf="@id/name_cd"
+            android:layout_toRightOf="@id/name_cd"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/lastName_cd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/firstName_cd"
+            android:layout_toRightOf="@id/firstName_cd"
+            android:layout_marginLeft="1dp"
+            android:layout_marginStart="1dp"
+            android:text="suthar"
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/phoneText_cd"
+            android:text="Mobile Number : "
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/phoneNumber_cd"
+            android:text="9958260460"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_toEndOf="@id/phoneText_cd"
+            android:layout_toRightOf="@id/phoneText_cd"/>
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimary"
+        android:text="Click here to Send OTP"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:textSize="14sp"
+        android:id="@+id/sendOTPMessage"/>
+
+</LinearLayout>
+
+

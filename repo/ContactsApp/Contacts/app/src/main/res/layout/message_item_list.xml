@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameofContact"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:text="Name"
+        android:layout_margin="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/timeofMessage"
+        android:layout_below="@id/nameofContact"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:text="time"
+        android:layout_margin="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/otpSendMessage"
+        android:layout_below="@id/timeofMessage"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:text="otp"
+        android:layout_margin="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mobileno"
+        android:layout_below="@id/otpSendMessage"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:text="99999999999999"
+        android:layout_margin="5dp"
+        />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_margin="10dp"
+        android:background="#FF0000FF"
+        android:layout_below="@id/mobileno"/>
+
+
+
+</RelativeLayout>
